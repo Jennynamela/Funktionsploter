@@ -1,0 +1,22 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "FunctionPlotterApp",
+            "request": "launch",
+            "mainClass": "functionplotter.FunctionPlotterApp",
+            "projectName": "PIS_Projekt_1c3cb736",
+            "args": ""
+        },
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Launch Chrome against localhost",
+            "url": "http://localhost:50001",
+            "webRoot": "${workspaceFolder}/src/main/resources/web",
+            "sourceMaps": true,
+            "userDataDir": "${workspaceFolder}/.vscode/chrome"
+        }
+    ]
+}
